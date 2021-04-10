@@ -55,6 +55,13 @@ define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
 
+/** Resolves WordPress Asking for FTP Credentials */
+define('FS_METHOD', 'direct'); 
+
+/** JWT Authentication Plugin */
+define('JWT_AUTH_CORS_ENABLE', true);
+define('JWT_AUTH_SECRET_KEY', 'your-top-secret-key');
+
 /**#@-*/
 
 /**
